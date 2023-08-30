@@ -414,6 +414,9 @@ footer p{
 footer span{
     color: var(--primary);
 }
+.social_icon {
+    font-size: 2rem !important;
+}
 @media(min-width: 768px){
     .contact{
         padding: 10px 40px;
