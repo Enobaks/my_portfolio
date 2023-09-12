@@ -120,6 +120,10 @@ html{
 .home-text .text-3 span, .about-content .col-md-8 h3 span{
     color: var(--primary);
 }
+.contact_reach {
+    text-decoration: none !important;
+    color: #fff !important;
+}
 .home .home-text a, .about-content a, .contact .row .col-md-6 form .submit button{
     display: inline-block;
     background: var(--primary);
