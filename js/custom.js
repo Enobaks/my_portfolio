@@ -32,3 +32,24 @@ const form = document.querySelector('form');
 //     console.log(form.elements["email"].value);
 // })
 // form.reset();
+
+
+
+
+let gen = [[2,8,7],[7,1,3],[1,9,5]]
+let h = 'replace'
+console.log(h.replace('e', 't'))
+
+var canConstruct = function(ransomNote, magazine) {
+    for (let char of magazine) {
+        ransomNote = ransomNote.replace(char, "")
+    }
+    if (ransomNote == "") {
+        console.log(true)
+    } else {
+        console.log(false)
+    }
+};
+
+canConstruct('a', 'b')
+console.log(Math.pow(3, three))
